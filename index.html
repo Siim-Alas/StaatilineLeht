@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Siimu Staatiline Lehekülg</title>
+</head>
+<body>
+    <div id="mainHeader" class="page-header">
+        <header class="container">
+            <h1>Minu Staatiline lehekülg!</h1>
+        </header>
+    </div>
+
+    <div id="navigationBar">
+        <nav class="navbar">
+            <ul class="container">
+                <li>
+                    <a onclick="selectMainContent('lorem')">Lorem...</a>
+                </li>
+                <li>
+                    <a onclick="selectMainContent('animation')">Animatsioon!</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="mainContent" class="container">
+        <!--Lorem-->
+        <div id="lorem">
+            <p class="main">
+                Siia läheb peamine tekst, mille välja mõtlemisega on mul raskusi, niisiis:
+
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer purus urna, feugiat aliquet lectus vitae, dictum porttitor ligula. Nam varius est ut gravida facilisis. Ut laoreet vulputate scelerisque. Curabitur vitae ullamcorper risus. Integer quis dolor dapibus, ullamcorper tortor vestibulum, vulputate metus. Mauris eget lacus justo. Duis aliquam vestibulum gravida.
+                Nullam aliquam mollis nulla, in aliquam ante congue et. Sed tempus tristique lacus, vitae sollicitudin enim viverra laoreet. Vestibulum fringilla urna leo, eu molestie est sodales id. In posuere auctor elit at mattis. Maecenas luctus imperdiet enim ac aliquam. Pellentesque finibus ullamcorper dolor, sed congue elit accumsan eu. Proin in velit sodales, tincidunt orci vel, sodales dui. Cras vel pulvinar libero, nec lacinia justo. Vivamus posuere commodo feugiat. Quisque sed risus ligula. Nulla convallis tellus et mattis lobortis. Mauris at magna quis erat ultricies aliquam. Proin ac eros a ante tristique feugiat. Duis dictum facilisis ornare.
+                Proin ullamcorper diam eget neque cursus, at ullamcorper nulla sollicitudin. Nunc scelerisque lobortis nibh, et laoreet augue varius vel. Aliquam a varius nunc. Aliquam efficitur velit velit, non accumsan purus blandit non. Nam id leo ante. In dapibus urna elit. Sed aliquam sem nec accumsan pharetra. Nunc molestie arcu at turpis faucibus, ac mollis lorem sagittis. Quisque ut tincidunt ipsum. Proin euismod libero in mauris mollis, a auctor ligula iaculis. Donec iaculis gravida lectus, ut aliquam massa bibendum eu. In ac venenatis tellus, a bibendum massa.
+                In pharetra eros vitae dapibus eleifend. Ut orci est, malesuada eu venenatis sed, pulvinar vitae ipsum. Suspendisse rutrum aliquam erat commodo commodo. Cras at porta sapien. Nam dignissim vestibulum pharetra. Aliquam venenatis maximus consectetur. Vestibulum eget quam sit amet risus porttitor dictum nec ac dui. Nunc sed enim congue, interdum quam in, pharetra orci. Vivamus fringilla lectus lorem. Fusce malesuada, nunc id rutrum facilisis, purus nisl scelerisque quam, sed tincidunt est justo et leo. Donec cursus mauris et nibh vestibulum, vitae condimentum ipsum lobortis. Donec tristique nec augue quis egestas. In at nisi et libero pretium venenatis id quis diam.
+                Vestibulum quis vestibulum ante. Quisque vitae justo aliquam, facilisis ex quis, malesuada diam. Pellentesque finibus neque ante, at interdum ipsum eleifend euismod. Duis vitae fringilla metus. Donec pulvinar lorem in ligula ornare vehicula. Proin facilisis, turpis eget rutrum auctor, mi libero lobortis lectus, ac ultrices quam lectus nec lectus. Aliquam efficitur fermentum orci sed accumsan. Sed nec risus quam. Nunc porttitor finibus dapibus. Fusce porta erat eget ipsum iaculis vulputate.
+            </p>
+            <p class="sidebar">
+                Siia läheb igasugune (sõna otseses mõttes) kõrvaline info.
+            </p>
+        </div>
+
+        <!--Animation-->
+        <div id="animation" style="display: none" class="animation-container">
+            <div id="animatedElement">
+                Ma Lendan!
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+    <footer>
+        <p>Võite seda nii palju kopida, kui tahate.</p>
+    </footer>
+</body>
+</html>
